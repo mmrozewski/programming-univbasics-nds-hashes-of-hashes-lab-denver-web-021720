@@ -4,34 +4,36 @@
 #
 # The tests will guide your construction.
 #
- PORTION_1 = {
-   label: "Kingdom",
-   sub_category: {
-     label: "Phylum",
-     sub_category: {
-       label: "Class"
-     }
-   }
- }
+# PORTION_1 = {
+#  label: "Kingdom",
+#   sub_category: {
+#     label: "Phylum",
+#     sub_category: {
+#       label: "Class"
+#     }
+#  }
+# }
  
- PORTION_2 = {
-   label: "Order"
- }
+# PORTION_2 = {
+#   label: "Order"
+# }
  
- PORTION_3 = {
-   label: "Family",
-   sub_category: {
-     label: "Genus",
-   }
- }
+# PORTION_3 = {
+#   label: "Family",
+#   sub_category: {
+#     label: "Genus",
+#   }
+# }
  
- PORTION_4 = {
-  Species: nil 
- }
+# PORTION_4 = {
+#  Species: nil 
+# }
 
 def naming_system
   
-  new_hash = { :PORTION_1 => :sub_category][:sub_category][:PORTION_2][:PORTION_3][:sub_category][PORTION_4]}
+  {label: 
+  
+  
   #  Kingdom
   #  Phylum
   #  Class
